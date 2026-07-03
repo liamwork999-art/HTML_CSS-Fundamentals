@@ -74,24 +74,86 @@
      -->
 
     <!-- froms and Inputs -->
-    <form action>
+    <form>
       <div>
         <label for="name">Name: </label>
-        <input type="text" id="name" name="name" />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter name"
+          required
+        />
       </div>
       <br />
       <div>
         <label for="email">Email: </label>
-        <input type="email" id="email" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@example.com"
+          required
+        />
       </div>
       <br />
       <div>
         <label for="password">Password: </label>
-        <input type="password" id="password" />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+          minlength="7"
+        />
       </div>
       <br />
       <div>
-        <label for=""></label>
+        <!-- <label for="submit">su</label> -->
+        <!-- <input type="submit" id="submit" /> -->
+        <button type="submit">Submit</button>
+      </div>
+      <br />
+      <div>
+        <label for="product">Product</label>
+        <select name="product" id="product">
+          <option value="iphone" selected>iPhone</option>
+          <option value="imac">iMac</option>
+          <option value="macbook">Macbook</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Enter your issue"
+          rows="4"
+          cols="40"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="html">
+          <input type="checkbox" id="html" name="languages" value="html" /> Html
+        </label>
+        <br />
+        <label for="css">
+          <input type="checkbox" id="css" name="languages" value="css" /> CSS
+        </label>
+        <br />
+        <label for="javascript">
+          <input
+            type="checkbox"
+            id="javascript"
+            name="languages"
+            value="javascript"
+          />
+          JavaScript
+        </label>
       </div>
     </form>
   </body>
