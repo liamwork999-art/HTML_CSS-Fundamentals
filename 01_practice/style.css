@@ -4,46 +4,76 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
-  background-color: #000;
+  background-color: rgb(135, 206, 235, 0.5);
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
 a {
-  color: chartreuse;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
-/* Class selectors */
 
-.sporty {
-  color: red;
+#container p {
+  font-weight: 560;
 }
-
-.casual {
-  color: blueviolet;
-}
-
-.formal {
-  color: brown;
-}
-
-/* Multi selector */
-.sporty,
-.formal,
-.casual {
-  font-size: 35px;
-}
-
-/* Id selectors */
-
 #container {
-  border: 1px solid red;
   max-width: 600px;
   margin: 100px auto;
   padding: 20px;
 }
 
-/* Descendent styles */
-#container p {
-  color: white;
+.card {
+  border: 2px solid rgba(74, 73, 73, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.link-1 {
+  display: inline-block;
+  border: 2px solid rgb(152, 2, 2, 0.2);
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  background-color: rgb(255, 0, 0);
+  font-size: 15px;
+}
+.link-2 {
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 255, 0.2);
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 255);
+  font-size: 15px;
+}
+.link-3 {
+  display: inline-block;
+  border: 2px solid rgb(74, 34, 15, 0.2);
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  background-color: rgb(74, 34, 15);
+  font-size: 15px;
+}
+
+.sporty {
+  color: rgb(255, 0, 0);
+}
+
+.casual {
+  color: rgb(0, 0, 188);
+}
+
+.formal {
+  color: rgb(74, 34, 15);
 }
