@@ -4,25 +4,46 @@
 }
 
 body {
-  background: #121212;
-  color: #e8e8e8;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  background-color: #000;
 }
 
 a {
-  color: #8ab4f8;
+  color: chartreuse;
+  text-decoration: none;
+}
+/* Class selectors */
+
+.sporty {
+  color: red;
 }
 
-#main-title {
-  text-align: center;
-  color: rgb(50, 255, 50);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  margin: 15px;
+.casual {
+  color: blueviolet;
 }
 
-ul,
-ol {
-  color: aqua;
-  padding-left: 40px;
-  margin-bottom: 20px;
+.formal {
+  color: brown;
+}
+
+/* Multi selector */
+.sporty,
+.formal,
+.casual {
+  font-size: 35px;
+}
+
+/* Id selectors */
+
+#container {
+  border: 1px solid red;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Descendent styles */
+#container p {
+  color: white;
 }

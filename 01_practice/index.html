@@ -6,180 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="HTML and CSS Tutorial" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuyu&display=swap"
+      rel="stylesheet"
+    />
     <title>Index</title>
   </head>
-  <body id="body">
-    <h1 id="main-title"><ins>Website</ins></h1>
-    <!-- Unordered List -->
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    <!-- Ordered List -->
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ol>
-
-    <!-- Anchor Tags-->
-    <ul>
-      <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
-      <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
-      <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-    </ul>
-    <figure>
-      <img
-        src="https://picsum.photos/300/300"
-        alt="Random Image"
-        width="300"
-        height="300"
-      />
-      <figcaption>Random Image</figcaption>
-      <!-- Containers <div> block and <span> inline -->
-    </figure>
-
-    <!-- line breaks, Horizontal rules & Entities -->
-    <p>
-      Hello <br />
-      World!
-    </p>
-
-    <pre>
-      HELLO      WORLD
-             👋
-    </pre>
-    <code> &lt;h1&gt;This is a Heading&lt;/h1&gt; </code>
-    <br />
-
-    <!-- Divs and spans -->
-    <div>
-      <h1>Header in a div</h1>
-      <ul>
-        <li>a list in div1</li>
-        <li>another list</li>
-      </ul>
+  <body>
+    <div id="container">
+      <div class="card">
+        <h2 class="sporty">Keep It Sporty</h2>
+        <p>Clothing to keep you active and healthy</p>
+        <a href="#">View Collection</a>
+        <!-- <img src="" alt=""> -->
+      </div>
+      <div class="card">
+        <h2 class="casual">Keep It Casual</h2>
+        <p>Clothing to keep you comfortable</p>
+        <a href="#">View Collection</a>
+        <!-- <img src="" alt=""> -->
+      </div>
+      <div class="card">
+        <h2 class="formal">Keep It Formal</h2>
+        <p>Clothing to keep you looking sharp</p>
+        <a href="#">View Collection</a>
+        <!-- <img src="" alt=""> -->
+      </div>
     </div>
-    <!-- Classes and Id's used to identify elements -->
-
-    <!-- Semantic Elements make it more descriptive 
-      -> <header> for header
-      -> <footer> for footer
-      -> <main> for main content
-      -> <section> for sections
-      -> <article> for articles
-      -> <aside> for side content
-      -> <nav> for navigation
-     -->
-
-    <!-- froms and Inputs -->
-    <form>
-      <div>
-        <label for="name">Name: </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Enter name"
-          required
-        />
-      </div>
-      <br />
-      <div>
-        <label for="email">Email: </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="example@example.com"
-          required
-        />
-      </div>
-      <br />
-      <div>
-        <label for="password">Password: </label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Enter Password"
-          required
-          minlength="7"
-        />
-      </div>
-      <br />
-      <div>
-        <!-- <label for="submit">su</label> -->
-        <!-- <input type="submit" id="submit" /> -->
-        <button type="submit">Submit</button>
-      </div>
-      <br />
-      <div>
-        <label for="product">Product</label>
-        <select name="product" id="product">
-          <option value="iphone" selected>iPhone</option>
-          <option value="imac">iMac</option>
-          <option value="macbook">Macbook</option>
-        </select>
-      </div>
-      <br />
-      <div>
-        <label for="message">Message</label>
-        <br />
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Enter your issue"
-          rows="4"
-          cols="40"
-        ></textarea>
-      </div>
-      <br />
-      <div>
-        <label for="html">
-          <input type="checkbox" id="html" name="languages" value="html" /> Html
-        </label>
-        <br />
-        <label for="css">
-          <input type="checkbox" id="css" name="languages" value="css" /> CSS
-        </label>
-        <br />
-        <label for="javascript">
-          <input
-            type="checkbox"
-            id="javascript"
-            name="languages"
-            value="javascript"
-          />
-          JavaScript
-        </label>
-      </div>
-    </form>
-    <!-- Audio tag -->
-    <h1>Audio tags</h1>
-    <!-- u can loop it by the loop attr -->
-    <audio controls>
-      <source src="Dogbarking.mp3" type="audio/mp3" />
-      <p>Ur browser doesn't support this</p>
-    </audio>
-
-    <figure>
-      <figcaption>Listen</figcaption>
-      <audio src="Dogbarking.mp3" controls></audio>
-    </figure>
-    <h1>Video tags</h1>
-    <video
-      src="FunnyDog.mp4"
-      controls
-      muted
-      type="video/mp4"
-      width="300"
-    ></video>
-    <br />
-    <svg width="300" height="300">
-      <circle cx="90" cy="90" r="80" fill="aqua" />
-      <text x="50" y="100" font-size="40">SVG</text>
-    </svg>
   </body>
 </html>
