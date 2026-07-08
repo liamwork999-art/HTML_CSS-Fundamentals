@@ -5,34 +5,33 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  background: lightblue;
-  border: 1px solid black;
-  margin: 10px;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 .box-1 {
   position: static;
-  left: 30px;
 }
 
 .box-2 {
   position: relative;
+  top: 30px;
   left: 30px;
-  top: 20px;
 }
 
 .box-3 {
   position: fixed;
   top: 0;
-  right: ;
+  right: 0;
   z-index: 2;
 }
 
 .box-4 {
-  position: sticky;
+  /* position: sticky; */
   top: 200px;
 }
 
@@ -40,12 +39,11 @@ body {
   position: relative;
   width: 600px;
   height: 600px;
-  background: coral;
-  z-index: 1;
+  background-color: coral;
 }
 
 .box-6 {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 0;
+  left: 0;
 }

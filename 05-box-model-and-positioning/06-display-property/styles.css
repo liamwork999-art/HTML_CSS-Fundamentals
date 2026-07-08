@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .none-el {
@@ -10,20 +10,14 @@ body {
   visibility: hidden;
 }
 
-/* p {
-  display: inline;
-}
-
-a {
-  display: block;
-} */
-
 a {
   display: inline-block;
-  background: lightblue;
-  border: blue solid 1px;
+  background-color: lightblue;
+  border: 2px solid blue;
   padding: 10px;
   margin: 20px 10px;
   width: 200px;
   height: 100px;
+  text-align: center;
+  text-decoration: none;
 }
