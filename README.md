@@ -52,7 +52,6 @@ The purpose of this repository is to help build confidence in:
 
 ## 📁 Repository structure
 
-- `00_practice` — small exercises and experimentation
 - `01-essential-html` — core HTML concepts
 - `02-forms-and-inputs` — forms and input styling
 - `03-more-html-elements` — additional semantic and structural elements
