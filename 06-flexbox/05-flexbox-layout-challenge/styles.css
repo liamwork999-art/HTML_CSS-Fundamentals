@@ -42,7 +42,7 @@ p {
   background-color: #f4f4f4;
 }
 
-.main-menu a {
+..main-menu a {
   font-size: 20px;
 }
 
@@ -63,11 +63,11 @@ p {
 .main aside h3 {
   padding: 10px;
   background-color: coral;
-  color: #fff;
+  color: white;
 }
 
 .main aside li {
   padding: 10px;
-  background-color: #f4f4f4;
+  background: #f4f4f4;
   border-bottom: 1px solid #ccc;
 }
