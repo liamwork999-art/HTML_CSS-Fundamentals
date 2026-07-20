@@ -8,9 +8,6 @@
   --primary-color: lightblue;
   --secondary-color: lightcoral;
   --tertiary-color: lightgreen;
-  --shadow-opacity: 0.4;
-  --container-width: 600px;
-  --container-width-large: 1100px;
 }
 
 body {
@@ -26,30 +23,24 @@ header {
 
 .container {
   display: flex;
-  max-width: var(--container-width);
+  max-width: 600px;
   margin: 30px auto;
   gap: 20px;
-}
-
-.container-lg {
-  max-width: var(--container-width-large);
 }
 
 .box {
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, var(--shadow-opacity));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .box-1 {
-  background: var(--primary-color);
+  background-color: var(--primary-color);
 }
-
 .box-2 {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
-
 .box-3 {
-  background: var(--tertiary-color);
+  background-color: var(--tertiary-color);
 }
