@@ -1,11 +1,7 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-
-:root {
-  --header-transparency: 0.9;
 }
 
 html,
@@ -37,21 +33,23 @@ img {
   margin: 0 auto;
 }
 
+/* Header */
+
 .header {
-  background: linear-gradient(45deg, #f00, #00f);
+  background: linear-gradient(45deg, rgb(255, 0, 0) 0%, rgb(0, 0, 255) 50%);
   color: #fff;
   padding: 10px 0;
   margin-bottom: 80px;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .header.transparent {
   background: linear-gradient(
     45deg,
-    rgba(255, 0, 0, var(--header-transparency)),
-    rgba(0, 0, 255, var(--header-transparency))
+    rgb(255, 0, 0, 0.8) 0%,
+    rgb(0, 0, 255, 0.8) 50%
   );
 }
 
@@ -77,9 +75,9 @@ img {
 .section h2 {
   margin-bottom: 20px;
   text-align: center;
-  background: linear-gradient(45deg, #f00, #00f);
+  background: linear-gradient(45deg, rgb(255, 0, 0) 0%, rgb(0, 0, 255) 50%);
   color: #fff;
-  font-size: 40px;
+  font-size: 37px;
 }
 
 .section#home {
