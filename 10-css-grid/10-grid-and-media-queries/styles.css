@@ -58,8 +58,8 @@ footer {
     grid-auto-rows: auto;
   }
 
-  header,
-  footer {
+  .header,
+  .footer {
     grid-column: span 1;
   }
 }

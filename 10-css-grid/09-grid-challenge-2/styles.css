@@ -16,38 +16,38 @@ body {
 }
 
 header {
-  background-color: #333;
+  background: #333;
   color: #fff;
   padding: 20px;
-  /* grid-column-start: 1; */
-  /* grid-column-end: 3; */
   grid-column: span 2;
 }
 
 nav {
-  background-color: #444;
+  background: #444;
   color: #fff;
   padding: 20px;
 }
 
 .search {
-  background-color: #666;
+  background: #555;
   color: #fff;
   padding: 20px;
 }
 
 main {
-  background-color: #f0f0f0;
+  background: #666;
+  color: #fff;
   padding: 20px;
 }
 
 aside {
-  background-color: #ddd;
+  background: #777;
+  color: #fff;
   padding: 20px;
 }
 
 footer {
-  background-color: #666;
+  background: #222;
   color: #fff;
   padding: 20px;
   grid-column: span 2;
