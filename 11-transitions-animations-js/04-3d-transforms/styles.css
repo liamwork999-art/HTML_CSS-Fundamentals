@@ -22,11 +22,12 @@ body {
   height: 300px;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.5s ease;
+  transition: transform 2s ease;
 }
 
 .card:hover {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .front {
