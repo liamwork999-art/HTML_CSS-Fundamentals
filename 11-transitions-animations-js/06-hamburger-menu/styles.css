@@ -31,11 +31,11 @@ img {
 .navbar {
   background: lightblue;
   padding: 1rem 2rem;
-  height: 80px;
+  height: 100px;
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 80px;
 }
 
 .navbar-flex {
@@ -54,17 +54,18 @@ img {
   color: blue;
 }
 
-/* Mobile Menu */
+/* Mobile */
+
 .navbar .mobile-menu-items {
   position: absolute;
-  top: 80px;
+  top: 100px;
   bottom: 0;
   left: 0;
   width: 100%;
   background: rgba(154, 192, 204, 0.5);
   text-align: center;
-  transition: transform 0.3s ease;
   transform: translateX(100%);
+  transition: transform 0.3s ease;
 }
 
 .navbar .mobile-menu-list {
@@ -72,7 +73,8 @@ img {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding-top: 300px;
+  justify-content: center;
+  /* padding-top: 300px; */
   gap: 2rem;
   font-size: 1.2rem;
 }
